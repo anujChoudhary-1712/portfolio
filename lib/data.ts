@@ -69,7 +69,7 @@ export const projectsData = [
     title: "Creatify",
     description:
       "Developed a digital marketplace using Nextjs , Nodejs and Mongodb enabling users to buy and sell digital assets such as stickers , emojis , landing page , ui kits etc.",
-      link:"",
+      link:"https://sellnet-front-end.vercel.app/",
     tags: ["Next.js", "MongoDB", "Tailwind", "Nodejs","Shadcn"],
     imageUrl: creatifyImg,
   },
@@ -77,7 +77,7 @@ export const projectsData = [
     title: "Resume builder",
     description:
       "This website helps users in building a resume based on their experience level by entering the details in the editor .",
-      link:"https://anuj-1712.github.io/youtube-clone/",
+      link:"https://anuj-1712.github.io/Resume-Builder/",
     tags: ["React", "TypeScript", "Material UI"],
     imageUrl: resumeImg,
   },
