@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import creatifyImg from "@/public/sellnet.png"
+import mediaImg from "@/public/mediascope.png"
+import youtubeImg from "@/public/youtube.png"
+import resumeImg from "@/public/best-resume-builders.webp"
 
 export const links = [
   {
@@ -35,52 +39,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Developer Intern | Techype",
+    location: "Noida",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Engaged in developing multiple admin dashboards using Nextjs, Shadcn ui and Tailwind CSS .Successfully resolved 10-12 bugs in an existing dashboard, enhancing its efficiency and functionality.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb 2024 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer Intern",
+    location: "Delhi",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Led backend development by creating multiple CRUD APIs using Node.js, MongoDB, and Firebase, with added AI integration through OpenAI for enhanced functionality across various CRM dashboards. On the frontend, crafted 18-20 components using Next.js, contributing to the seamless user experience and navigation within the CRM dashboards.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2023 - Mar 2024",
+  },
+  {
+    title: "Front-end Developer Intern",
+    location: "Delhi",
+    description:
+      "Created an AI-driven chatbot for customer support using OpenAI, Langchain, Node.js, and MongoDB for the company's website. Also, managed to fix several bugs and developed multiple components for the main site, improving its overall performance and user experience using Nextjs",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2023 - Dec 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Creatify",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed a digital marketplace using Nextjs , Nodejs and Mongodb enabling users to buy and sell digital assets such as stickers , emojis , landing page , ui kits etc.",
+      link:"",
+    tags: ["Next.js", "MongoDB", "Tailwind", "Nodejs","Shadcn"],
+    imageUrl: creatifyImg,
   },
   {
-    title: "rmtDev",
+    title: "Resume builder",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This website helps users in building a resume based on their experience level by entering the details in the editor .",
+      link:"https://anuj-1712.github.io/youtube-clone/",
+    tags: ["React", "TypeScript", "Material UI"],
+    imageUrl: resumeImg,
   },
   {
-    title: "Word Analytics",
+    title: "Media Scope",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is a news related website which displays news articles to the users based on categories. Also, users can search about a particular topic using the search bar.",
+      link:"https://youtu.be/jLFqSlrUAmc?si=cYs96anv0e9aSEM9",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    imageUrl: mediaImg,
+  },
+  {
+    title: "Youtube Clone",
+    description:
+      "This is a Frontend clone of Youtube with some functionalities of it. Currently , This app allows the user to watch and enjoy videos , search particular videos.",
+      link:"https://anuj-1712.github.io/youtube-clone/",
+    tags: ["React.js","Tailwind CSS"],
+    imageUrl: youtubeImg,
   },
 ] as const;
 
@@ -94,14 +109,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Firebase",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
